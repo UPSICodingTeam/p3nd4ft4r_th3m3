@@ -17,6 +17,8 @@
 	<meta name="description" content="<?php bloginfo( 'description' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	
+
 
 	<?php wp_head(); ?>
 	<style>
@@ -32,7 +34,7 @@
 			Language chooser goes here
 		</div>
 		<div class="container" style=" margin-bottom: 30px; margin-top: 10px;">
-		<img src="http://pendaftarwp.upsi.edu.my/wp-content/uploads/2018/07/cropped-logo_utama_laman_web_upsi_2_logo_II.png" width="1000px;"><br />
+		<img src="<?php echo content_url();?>/themes/p3nd4ft4r_th3m3/assets/images/logo_upsi.png" width="1000px;"><br />
 		<span class="oswald" style="font-size: 1.5em;">UNIVERSITI NO.1 PENDIDIKAN’ | ‘NO.1 EDUCATION UNIVERSITY</span>
 		</div>
 		<nav class="navbar" style="background-color: #3b3b3b; border-bottom: 4px solid #428000;">
@@ -43,7 +45,7 @@
 						the_custom_logo();
 					} else { ?>
 						<a class="navbar-item" href="<?php echo esc_url_raw( home_url() );?>">
-							<h1><?php bloginfo( 'name' ); ?></h1>
+							<i class="fas fa-home fa-lg"></i>
 						</a>
 					<?php } ?>
 
