@@ -35,7 +35,7 @@
 		<img src="http://pendaftarwp.upsi.edu.my/wp-content/uploads/2018/07/cropped-logo_utama_laman_web_upsi_2_logo_II.png" width="1000px;"><br />
 		<span class="oswald" style="font-size: 1.5em;">UNIVERSITI NO.1 PENDIDIKAN’ | ‘NO.1 EDUCATION UNIVERSITY</span>
 		</div>
-		<nav class="navbar is-transparent">
+		<nav class="navbar" style="background-color: #3b3b3b; border-bottom: 4px solid #428000;">
 			<div class="container">
 				<div class="navbar-brand">
 					<?php
