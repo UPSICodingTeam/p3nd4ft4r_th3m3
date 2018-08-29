@@ -11,12 +11,31 @@
 
 ?>
 
-<footer class="footer is-light">
+<footer class="footer" style="background-color:#7fc33a;">
 	<div class="container">
-		<?php
-		/* translators: 1: Theme name, 2: Theme author. */
-		printf( esc_html__( 'Theme: %1$s by %2$s.', 'bulmascores' ), 'bulmascores', '<a href="https://github.com/Nicuz" target="_blank">Domenico Majorana</a>' );
-		?>
+		<div class="columns">
+			<div class="column">
+				<?php
+				if(is_active_sidebar('footer-sidebar-1')){
+				dynamic_sidebar('footer-sidebar-1');
+				}
+				?>
+			</div>
+			<div class="column">
+				<?php
+				if(is_active_sidebar('footer-sidebar-2')){
+				dynamic_sidebar('footer-sidebar-2');
+				}
+				?>
+			</div>
+			<div class="column">
+				<?php
+				if(is_active_sidebar('footer-sidebar-3')){
+				dynamic_sidebar('footer-sidebar-3');
+				}
+				?>
+			</div>
+		</div>
 	</div><!-- .container -->
 </footer><!-- #site-footer -->
 
