@@ -25,7 +25,10 @@
 
 	<!-- Navbar Menu -->
 	<header id="masthead" class="site-header">
-		<nav class="navbar is-light">
+		<div class="container">
+		this is header
+		</div>
+		<nav class="navbar is-transparent">
 			<div class="container">
 				<div class="navbar-brand">
 					<?php
@@ -59,9 +62,8 @@
 					<div class="navbar-end">
 						<div class="navbar-item">
 							<div id="social-icons" class="field is-grouped">
-								<a class="navbar-item" href="#"><i class="fab fa-github"></i></a>
+								<a class="navbar-item" href="#"><i class="fab fa-facebook"></i></a>
 								<a class="navbar-item" href="#"><i class="fab fa-twitter"></i></a>
-								<a class="navbar-item" href="#"><i class="fab fa-linkedin"></i></a>
 								<a class="navbar-item" href="#"><i class="fab fa-youtube"></i></a>
 							</div><!-- .field -->
 						</div><!-- .navbar-item -->
