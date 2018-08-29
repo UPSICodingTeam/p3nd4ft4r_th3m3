@@ -19,14 +19,21 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Oswald');
+	</style>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >
 
 	<!-- Navbar Menu -->
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header" >
 		<div class="container">
-		this is header
+			Language chooser goes here
+		</div>
+		<div class="container" style=" margin-bottom: 30px; margin-top: 10px;">
+		<img src="http://pendaftarwp.upsi.edu.my/wp-content/uploads/2018/07/cropped-logo_utama_laman_web_upsi_2_logo_II.png" width="1000px;"><br />
+		<span class="oswald" style="font-size: 1.5em;">UNIVERSITI NO.1 PENDIDIKAN’ | ‘NO.1 EDUCATION UNIVERSITY</span>
 		</div>
 		<nav class="navbar is-transparent">
 			<div class="container">
