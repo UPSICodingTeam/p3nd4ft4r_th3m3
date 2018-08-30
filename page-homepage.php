@@ -15,9 +15,23 @@
 get_header(); ?>
 	
 	<div id="primary" class="content-area">
+		
+			<div class="hzhero" style="background-image: url(<?php echo "'".content_url();?>/themes/p3nd4ft4r_th3m3/assets/images/background.jpg<?php echo "'" ?>);">
+				<div class="tophero">
+					<div class="container">
+						<div class="columns is-centered has-text-white">
+							<div class="column" style="position: absolute; padding-top: 150px;">
+								<h3 class="oswald700 hztitle">Relevant. Referred. Respected.</h3>
+							</div>
+						</div>
+					</div>
+					<img class="hzcloud" src="<?php echo content_url();?>/themes/p3nd4ft4r_th3m3/assets/images/cloud.png">
+				</div>
+			</div>
+
 		<main id="main" class="container">
 			this is homepage
-			<div class="columns is-centered">
+			<div class="columns is-vcentered">
 				<div class="column is-8">
 					<?php
 					while ( have_posts() ) : the_post();
