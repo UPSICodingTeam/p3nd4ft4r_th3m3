@@ -22,7 +22,7 @@
 
 	<?php wp_head(); ?>
 	<style>
-	@import url('https://fonts.googleapis.com/css?family=Oswald');
+	@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 	</style>
 </head>
 
