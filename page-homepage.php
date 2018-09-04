@@ -25,7 +25,7 @@ get_header(); ?>
 							</div>
 						</div>
 					</div>
-					<img class="hzcloud" src="<?php echo content_url();?>/themes/p3nd4ft4r_th3m3/assets/images/cloud.png">
+					<img class="hzcloud" src="<?php echo content_url();?>/themes/p3nd4ft4r_th3m3/assets/images/cloudnew.png">
 				</div>
 			</div>
 
